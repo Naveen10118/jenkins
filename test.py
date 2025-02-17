@@ -1,1 +1,1 @@
-print("This script version is 1")
+print("This script version is 2")
