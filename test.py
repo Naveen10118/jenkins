@@ -1,1 +1,1 @@
-print("This script version is 3")
+print("This script is used for pipeline demo")
