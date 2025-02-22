@@ -6,6 +6,7 @@ pipeline {
                     echo "Building.."
                     sh '''
                     echo "doing build stuff..."
+                    python3 test.py
                     '''
                 }
             }
