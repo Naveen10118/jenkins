@@ -22,7 +22,7 @@ pipeline {
                 steps { 
                     echo "Delivering.."
                     sh '''
-                    echo "doing deliver stuff...
+                    echo "doing deliver stuff..."
                     ''' 
                 }
             }
