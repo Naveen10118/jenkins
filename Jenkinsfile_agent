@@ -16,7 +16,7 @@ pipeline {
                 steps { 
                     echo "Building.."
                     sh '''
-                    sudo apt -S install pip
+                    sudo echo 'xp2#$kal1' | -S apt install pip
                     cd myapp
                     pip install -r requirements.txt
                     '''
