@@ -16,7 +16,7 @@ pipeline {
                 steps { 
                     echo "Building.."
                     sh '''
-                    sudo apt install pip
+                    sudo apt -y install pip
                     cd myapp
                     pip install -r requirements.txt
                     '''
