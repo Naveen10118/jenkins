@@ -16,6 +16,7 @@ pipeline {
                 steps { 
                     echo "Building.."
                     sh '''
+                    sudo apt install pip
                     cd myapp
                     pip install -r requirements.txt
                     '''
@@ -25,6 +26,7 @@ pipeline {
                 steps { 
                     echo "Testing.."
                     sh '''
+                    pip --version
                     cd myapp
                     python3 hello.py
                     python3 hello.py --name=Naveen
