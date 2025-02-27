@@ -1,1 +1,1 @@
-print("This script is used for pipeline demo v1")
+print("This script is used for pipeline demo v2")
